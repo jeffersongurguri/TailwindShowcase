@@ -24,5 +24,6 @@ O repositório é composto por 3 exemplos de componentes de interface, aplicados
 Como os exemplos utilizam o compilador do Tailwind diretamente via CDN, não é necessária **nenhuma instalação** prévia de pacotes (como Node.js, NPM ou Vite).
 
 1. Faça o clone deste repositório para a sua máquina:
-   ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repo.git](https://github.com/seu-usuario/nome-do-repo.git)
+```bash
+   git clone https://github.com/jeffersongurguri/TailwindShowcase.git
+```
