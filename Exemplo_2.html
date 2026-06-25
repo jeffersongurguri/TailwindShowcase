@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showcase Tailwind</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-50 flex items-center justify-center min-h-screen p-6">
+  <div class="w-full max-w-2xl bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+  <div class="flex justify-between items-center mb-6">
+    <h2 class="text-2xl font-extrabold text-slate-800 tracking-tight">Laboratório Maker</h2>
+    <button class="bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold py-2 px-4 rounded-lg transition-colors">
+      + Novo Protótipo
+    </button>
+  </div>
+
+  <div class="grid grid-cols-1 gap-4">
+    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg border border-slate-100">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-md bg-amber-100 flex items-center justify-center text-amber-600 font-bold">
+          ESP
+        </div>
+        <div>
+          <h4 class="text-slate-900 font-semibold">Estação Meteorológica IoT</h4>
+          <p class="text-slate-500 text-sm">Sprint 2 • Montagem de Sensores</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="relative flex h-3 w-3">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+        </span>
+        <span class="text-sm font-medium text-amber-600">Em Progresso</span>
+      </div>
+    </div>
+
+    <div class="flex items-center justify-between p-4 bg-slate-50 rounded-lg border border-slate-100">
+      <div class="flex items-center gap-4">
+        <div class="w-10 h-10 rounded-md bg-emerald-100 flex items-center justify-center text-emerald-600 font-bold">
+          3D
+        </div>
+        <div>
+          <h4 class="text-slate-900 font-semibold">Case para Raspberry Pi</h4>
+          <p class="text-slate-500 text-sm">Design Finalizado</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+        <span class="text-sm font-medium text-emerald-600">Concluído</span>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
